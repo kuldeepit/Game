@@ -30,6 +30,8 @@ function fill_box(row,size) {
     }
 }
 
+// some logic reference taken from YouTube video by :  Abhishweta Gupta - The Tower Block Game
+
 function move(row,size,s){
     id=setInterval(() => {
     if(size<20 && turn=='forward'){

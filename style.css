@@ -39,7 +39,6 @@ h2{
 
 #playerName{
     font-size:2vw;
-    text-align: center;
 }
 
 
@@ -50,54 +49,42 @@ h2{
         background-image: url("https://media.giphy.com/media/73WrT6n6yoVfq/giphy.gif?cid=ecf05e479m416145r02m12z4dye0biiqdtjxaj38092c002k&ep=v1_gifs_search&rid=giphy.gif&ct=g");
         padding:70px; 
     }
-
     #playerForm {
         width: 80vw;
         margin-left: 5px;
     }
-
     #button {
         width: 100px;
         height: 25px;
         background-color: black;
         color: white;
-        padding-top: 10px 0px 0px 0px;
     }
-
-    input {
-        width: 50vw;
-    }
-
     #playerName{
         font-size: x-large;
-        text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 }
 /* Desktop  */
 @media only screen and (max-width: 1024px) {
+
+    body{
+        background-image: url("https://media.giphy.com/media/73WrT6n6yoVfq/giphy.gif?cid=ecf05e479m416145r02m12z4dye0biiqdtjxaj38092c002k&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+        padding:100px; 
+    }
+
     h1 {
         font-size: 4vw;
         width: 60vw;
     }
-
     form {
         width: 40vw;
     }
-
     #button {
         width: 15vw;
         font-size: 4vw;
-        text-decoration: none;
     }
-
     input {
         width: 20vw;
-    }
-
-    #playerName {
-        font-size: 3vw;
     }
 }
